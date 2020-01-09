@@ -4,11 +4,7 @@ class String
   
   attr_accessor = :sentence
   attr_reader = :sentence
-  
-  def intialize(sentence)
-    @sentence = sentence
-  end 
-  
+ 
   def sentence?
     self.split("")[-1] == "."  
   end
